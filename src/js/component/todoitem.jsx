@@ -17,7 +17,7 @@ const TodoItem = ({ task, index, handleDeleteTask }) => {
           className="btn btn-danger btn-sm"
           onClick={() => handleDeleteTask(index)}
         >
-          ❌
+          <strong>X</strong>
         </button>
       )}
     </li>
